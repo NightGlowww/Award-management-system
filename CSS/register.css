@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background: #345bd1;
+}
+
+.box {
+    border-radius: 24px;
+    width: 300px;
+    padding: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #e1aa52;
+    box-shadow: 11px 10px 150px #888888;
+}
