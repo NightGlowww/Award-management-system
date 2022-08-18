@@ -6,6 +6,7 @@ body {
 }
 
 .box {
+    border-radius: 24px;
     width: 300px;
     padding: 40px;
     position: absolute;
@@ -53,4 +54,22 @@ body {
 
 .box input[type="submit"]:hover {
     background: #2ecc71;
+}
+
+.box input[type="reset"] {
+    border-radius: 24px;
+    border: 2px solid hsl(40, 76%, 52%);
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="reset"]:hover {
+    background: hsl(40, 76%, 52%);
 }
