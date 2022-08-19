@@ -5,4 +5,3 @@ CREATE Table Users(
         Password VARCHAR(30) NOT NULL,
         E_Mail VARCHAR(30) NOT NULL
     );
-INSERT INTO `Users`
