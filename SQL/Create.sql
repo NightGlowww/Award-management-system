@@ -3,7 +3,6 @@ CREATE Table Users(
         User_ID INT AUTO_INCREMENT PRIMARY KEY,
         Username VARCHAR(20) NOT NULL,
         Password VARCHAR(30) NOT NULL,
-        Gender CHAR(6) NOT NULL,
-        Birthday DATE NOT NULL,
         E_Mail VARCHAR(30) NOT NULL
     );
+INSERT INTO `Users`
